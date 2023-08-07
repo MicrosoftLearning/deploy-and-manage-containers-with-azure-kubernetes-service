@@ -12,7 +12,8 @@ This lab consist of the following exercises:
 
 # Exercise 4: Review the deployment and deprovision all resources
 In this exercise, you will review the results of the deployments and deprovision all resources.
-
+>**Note**: To complete this lab you will need an [Azure subscription](https://azure.microsoft.com/free/).
+> For any properties that are not specified, use the default value.
 ### Task 1: Review the AKS deployments and services
 In this task, you will review results of both deployments, including the deployments and services objects.
 

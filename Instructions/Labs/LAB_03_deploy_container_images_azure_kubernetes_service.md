@@ -9,7 +9,7 @@ This guided project consist of the following exercises:
 + **Exercise 3: Deploy container images to Azure Kubernetes Service.**
 + Exercise 4: Review the deployment and deprovision all resources.
 
-In this unit you deploy container images to Azure Kubernetes Service.
+In this exercise you deploy container images to Azure Kubernetes Service.
 
 
 ## Exercise 3: Deploy container images to AKS 

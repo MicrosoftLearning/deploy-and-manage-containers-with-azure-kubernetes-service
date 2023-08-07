@@ -2,13 +2,14 @@
 
 ## Objectives
 
-This lab consist of the following exercises:
+This guided project consist of the following exercises:
 
-+ Exercise 1: Provision Azure Container Registry (ACR) and Azure Kubernetes Service (AKS)
-+ Exercise 2: Build a Linux and Windows container images and store them in ACR
-+ Exercise 3: Deploy container images to AKS 
-+ Exercise 4: Review the deployment and deprovision all resources
+Exercise 1: Provision Azure Container Registry (ACR) and Azure Kubernetes Service (AKS)
+Exercise 2: Build a Linux and Windows container images and store them in ACR
+Exercise 3: Deploy container images to AKS
+**Exercise 4: Review the deployment and deprovision all resources**
 
+In this exercise you review the deployment of the services in the previous exercises and deprovision all the resources.
 
 # Exercise 4: Review the deployment and deprovision all resources
 In this exercise, you will review the results of the deployments and deprovision all resources.

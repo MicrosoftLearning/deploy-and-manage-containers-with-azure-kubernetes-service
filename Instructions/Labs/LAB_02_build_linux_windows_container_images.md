@@ -9,7 +9,7 @@ This guided project consist of the following exercises:
 + Exercise 3: Deploy container images to Azure Kubernetes Service.
 + Exercise 4: Review the deployment and deprovision all resources.
 
-In this exercise you build a Linux and Windows container images and store them in Azure Container Registry.
+In this lab you build a Linux and Windows container images and store them in Azure Container Registry.
 
 ## Exercise 2: Build a Linux and Windows container images and store them in ACR
 In this exercise, you will build a Linux- and Windows-based Docker images and pushed them into the Azure Container registry you created earlier in this lab.

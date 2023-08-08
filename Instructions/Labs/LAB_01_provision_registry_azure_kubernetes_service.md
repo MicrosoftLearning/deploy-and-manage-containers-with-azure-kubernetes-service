@@ -1,3 +1,8 @@
+---
+lab:
+  title: Lab - Deploy applications to Azure Kubernetes Service (AKS)
+---
+
 # Lab - Deploy applications to Azure Kubernetes Service (AKS)
 
 ## Objectives

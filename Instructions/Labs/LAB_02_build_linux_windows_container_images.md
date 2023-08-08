@@ -1,3 +1,7 @@
+---
+lab:
+  title: LAB_02_build_linux_windows_container_images
+---
 # Lab - Deploy applications to Azure Kubernetes Service (AKS)
 
 ## Objectives

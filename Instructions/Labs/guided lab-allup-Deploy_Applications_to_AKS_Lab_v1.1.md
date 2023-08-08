@@ -1,3 +1,7 @@
+---
+lab:
+  title: guided lab-allup-Deploy_Applications_to_AKS_Lab_v1.1
+---
 # Lab - Deploy applications to Azure Kubernetes Service (AKS)
 
 ## Objectives

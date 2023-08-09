@@ -15,8 +15,12 @@ This lab consist of the following exercises:
 
 ## Exercise 1: Provision Azure Container Registry (ACR) and Azure Kubernetes Service (AKS)
 In this exercise, you will create an Azure Container registry and an AKS cluster.
+
+
 >**Note**: To complete this lab you will need an [Azure subscription](https://azure.microsoft.com/free/).
 > For any properties that are not specified, use the default value.
+
+
 ### Task 1: Create an Azure Container registry
 In this task, you will create an Azure Container registry
 

@@ -17,8 +17,10 @@ In this lab you build a Linux and Windows container images and store them in Azu
 
 ## Exercise 2: Build a Linux and Windows container images and store them in ACR
 In this exercise, you will build a Linux- and Windows-based Docker images and pushed them into the Azure Container registry you created earlier in this lab.
+
 >**Note**: To complete this lab you will need an [Azure subscription](https://azure.microsoft.com/free/).
 > For any properties that are not specified, use the default value.
+
 ### Task 1: Build a Linux container image and store it in ACR
 In this task, you will use a ACR task to build a Linux container image and automatically push it into the ACR.
 

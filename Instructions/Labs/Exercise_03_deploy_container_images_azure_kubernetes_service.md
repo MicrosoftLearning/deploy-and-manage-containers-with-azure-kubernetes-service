@@ -1,8 +1,8 @@
 ---
-lab:
+Exercise:
   title: Exercise_03_deploy_container_images_azure_kubernetes_service
 ---
-# Lab - Deploy applications to Azure Kubernetes Service (AKS)
+# Exercise 3 - Deploy applications to Azure Kubernetes Service (AKS)
 
 ## Objectives
 
@@ -13,11 +13,11 @@ This guided project consist of the following exercises:
 + **Exercise 3: Deploy container images to Azure Kubernetes Service.**
 + Exercise 4: Review the deployment and deprovision all resources.
 
-In this lab you deploy container images to Azure Kubernetes Service.
+In this exercise you deploy container images to Azure Kubernetes Service.
 
 ## Exercise 3: Deploy container images to AKS 
-In this exercise, you will deploy two container images you created earlier in this lab to the AKS cluster.
->**Note**: To complete this lab you will need an [Azure subscription](https://azure.microsoft.com/free/).
+In this exercise, you will deploy two container images you created earlier in this exercise to the AKS cluster.
+>**Note**: To complete this exercise you will need an [Azure subscription](https://azure.microsoft.com/free/).
 > For any properties that are not specified, use the default value.
 > **Note:** Before you proceed with this exercise, make sure that the provisioning of the AKS cluster has successfully completed.
 

@@ -1,6 +1,6 @@
 ---
 lab:
-  title: LAB_04_review_deployment_deprovision
+  title: Exercise_04_review_deployment_deprovision
 ---
 # Lab - Deploy applications to Azure Kubernetes Service (AKS)
 

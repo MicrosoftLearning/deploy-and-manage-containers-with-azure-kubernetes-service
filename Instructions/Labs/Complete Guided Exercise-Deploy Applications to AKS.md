@@ -56,7 +56,7 @@ In this task, you will create an Azure virtual network and deploy an AKS cluster
     |Subscription|The name of the Azure subscription you selected in the first exercise|
     |Resource Group|The name of a new resource group **aks-01-RG**|
     |Virtual network name|**vnet-01**|
-    |Region|The same Azure region you selected in the first exercise of this lab|
+    |Region|The same Azure region you selected in the first exercise of this exercise|
 
 1. On the **Basics** tab of the **Create virtual network** page, select **Next**.
 1. On the **Security** tab of the **Create virtual network** page, accept the default settings and select **Next**.

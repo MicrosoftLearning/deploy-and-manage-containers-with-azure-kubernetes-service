@@ -1,12 +1,12 @@
 ---
-lab:
+Guided Exercise:
   title: guided lab-allup-Deploy_Applications_to_AKS_Lab_v1.1
 ---
-# Lab - Deploy applications to Azure Kubernetes Service (AKS)
+# Guided Exercise - Deploy applications to Azure Kubernetes Service (AKS)
 
 ## Objectives
 
-This lab consist of the following exercises:
+This guided exercise consist of the following activities:
 
 + Exercise 1: Provision Azure Container Registry (ACR) and Azure Kubernetes Service (AKS)
 + Exercise 2: Build a Linux and Windows container images and store them in ACR
@@ -17,7 +17,7 @@ This lab consist of the following exercises:
 In this exercise, you will create an Azure Container registry and an AKS cluster.
 
 
->**Note**: To complete this lab you will need an [Azure subscription](https://azure.microsoft.com/free/).
+>**Note**: To complete this exercise you will need an [Azure subscription](https://azure.microsoft.com/free/).
 > For any properties that are not specified, use the default value.
 
 
@@ -25,14 +25,14 @@ In this exercise, you will create an Azure Container registry and an AKS cluster
 In this task, you will create an Azure Container registry
 
 1. From your computer, open a web browser window and navigate to the Azure portal at https://portal.azure.com.
-1. When prompted, sign in by using a user account that has the Owner role in the Azure subscription you will be using in this lab. 
+1. When prompted, sign in by using a user account that has the Owner role in the Azure subscription you will be using in this exercise. 
 1. Sign in to the Azure portal. 
 1. In the Azure portal, in the **Search** text box, search for and select **Container registries**.
 1. On the **Container registries** page, select **+ Create** and specify the following settings:
 
     |Setting|Value|
     |---|---|
-    |Subscription|The name of the Azure subscription you will be using in this lab|
+    |Subscription|The name of the Azure subscription you will be using in this exercise|
     |Resource Group|The name of a new resource group **acr-01-RG**|
     |Registry name|Any valid, globally unique name consisting of between 5 and 50 alphanumeric characters|
     |Region|Any Azure region in which you can create an Azure Container registry and an AKS cluster|
@@ -53,7 +53,7 @@ In this task, you will create an Azure virtual network and deploy an AKS cluster
 
     |Setting|Value|
     |---|---|
-    |Subscription|The name of the Azure subscription you selected in the first exercise of this lab|
+    |Subscription|The name of the Azure subscription you selected in the first exercise|
     |Resource Group|The name of a new resource group **aks-01-RG**|
     |Virtual network name|**vnet-01**|
     |Region|The same Azure region you selected in the first exercise of this lab|
@@ -69,11 +69,11 @@ In this task, you will create an Azure virtual network and deploy an AKS cluster
 
     |Setting|Value|
     |---|---|
-    |Subscription|The name of the Azure subscription you selected in the first exercise of this lab|
+    |Subscription|The name of the Azure subscription you selected in the first exercise|
     |Resource Group|**aks-01-RG**|
     |Cluster preset configuration|**Dev/Test**|
     |Kubernetes cluster name|**aks-01**|
-    |Region|The same Azure region you selected in the first exercise of this lab|
+    |Region|The same Azure region you selected in the first exercise|
     |Availability zones|**None**|
     |AKS pricing tier|**Free**|
     |Kubernetes version|Accept the default value|
@@ -139,7 +139,7 @@ In this task, you will create an Azure virtual network and deploy an AKS cluster
    > **Note:** Proceed to the next exercise without waiting for the provisioning of AKS cluster to complete. The provisioning process might take about 5 minutes.
 
 ## Exercise 2: Build a Linux and Windows container images and store them in ACR
-In this exercise, you will build a Linux- and Windows-based Docker images and pushed them into the Azure Container registry you created earlier in this lab.
+In this exercise, you will build a Linux- and Windows-based Docker images and pushed them into the Azure Container registry you created earlier in this exercise .
 
 ### Task 1: Build a Linux container image and store it in ACR
 In this task, you will use a ACR task to build a Linux container image and automatically push it into the ACR.
@@ -199,7 +199,7 @@ In this task, you will use a ACR task to build a Linux container image and autom
    ```
 
 1. Save the changes to the file and close it to return to the Bash prompt.
-1. From the Bash session of Azure Cloud Shell, identify the name of your Azure Container registry you created earlier in this lab and store it in a variable named **$ACRNAME** by running the following commands:
+1. From the Bash session of Azure Cloud Shell, identify the name of your Azure Container registry you created earlier in this exercise and store it in a variable named **$ACRNAME** by running the following commands:
 
    ```azurecli
    ACR_RGNAME='acr-01-RG'
@@ -248,12 +248,12 @@ In this task, you will use a ACR task to build a Windows container image and aut
 1. On the Container registry page, in the vertical hub menu, select **Repositories** and verify that **hellofromnode** and **hellofromdotnet** appear in the list of repositories.
 
 ## Exercise 3: Deploy container images to AKS 
-In this exercise, you will deploy two container images you created earlier in this lab to the AKS cluster.
+In this exercise, you will deploy two container images you created earlier in this exercise to the AKS cluster.
 
 > **Note:** Before you proceed with this exercise, make sure that the provisioning of the AKS cluster has successfully completed.
 
 ### Task 1: Create custom AKS namespaces
-In this task, you will create two namespaces on the AKS cluster you created earlier in this lab.
+In this task, you will create two namespaces on the AKS cluster you created earlier in this exercise .
 
 1. In the Azure portal, in the **Search** text box, search for and select **Kubernetes services**.
 1. On the **Kubernetes services** page, select **aks-01**.
@@ -460,9 +460,9 @@ In this task, you will review results of both deployments, including the deploym
 1. Use a web browser to navigate to the IP addresses you identified in the previous step and verify that the resulting web pages display the **Hello World from Node** and **Hello World from .Net 7** messages, respectively.
 
 ### Task 2: Delete all resources
-In this task, you will delete all resources provisioned in this lab.
+In this task, you will delete all resources provisioned in this exercise.
 
-1. From the Bash session of Azure Cloud Shell, display the listing of resources in the two resource groups provisioned in this lab by running the following commands:
+1. From the Bash session of Azure Cloud Shell, display the listing of resources in the two resource groups provisioned in this exerciseby running the following commands:
 
    ```azurecli
    az resource list --resource-group 'acr-01-RG' --query "[].name" --output tsv
@@ -471,7 +471,7 @@ In this task, you will delete all resources provisioned in this lab.
 
    > **Note:** Verify that these are the resources you want to delete. If so, proceed to the next step.
 
-1. From the Bash session of Azure Cloud Shell, delete all resources provisioned in this lab by running the following commands:
+1. From the Bash session of Azure Cloud Shell, delete all resources provisioned in this exercise by running the following commands:
 
    ```azurecli
    az group delete --name 'acr-01-RG' --no-wait --yes

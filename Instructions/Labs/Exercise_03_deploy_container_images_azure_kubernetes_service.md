@@ -1,6 +1,6 @@
 ---
 lab:
-  title: LAB_03_deploy_container_images_azure_kubernetes_service
+  title: Exercise_03_deploy_container_images_azure_kubernetes_service
 ---
 # Lab - Deploy applications to Azure Kubernetes Service (AKS)
 

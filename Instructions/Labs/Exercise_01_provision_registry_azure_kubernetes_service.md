@@ -1,5 +1,5 @@
 ---
-lab:
+Exercise:
   title: Exercise_01_provision_registry_azure_kubernetes_service
 ---
 

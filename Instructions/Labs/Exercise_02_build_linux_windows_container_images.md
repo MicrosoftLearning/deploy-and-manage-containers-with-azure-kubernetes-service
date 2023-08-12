@@ -1,5 +1,5 @@
 ---
-lab:
+Exercise:
   title: Exercise_02_build_linux_windows_container_images
 ---
 # Exercise 2 - Deploy applications to Azure Kubernetes Service (AKS)

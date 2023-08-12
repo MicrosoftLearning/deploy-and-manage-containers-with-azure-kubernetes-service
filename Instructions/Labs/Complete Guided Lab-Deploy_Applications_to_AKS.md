@@ -1,6 +1,6 @@
 ---
 Guided Exercise:
-  title: guided lab-allup-Deploy_Applications_to_AKS_Lab_v1.1
+  title: Guided Exercise Deploy Applications to AKS
 ---
 # Guided Exercise - Deploy applications to Azure Kubernetes Service (AKS)
 

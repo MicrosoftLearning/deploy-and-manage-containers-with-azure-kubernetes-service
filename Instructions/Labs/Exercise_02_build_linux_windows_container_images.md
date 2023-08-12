@@ -2,7 +2,7 @@
 lab:
   title: Exercise_02_build_linux_windows_container_images
 ---
-# Lab - Deploy applications to Azure Kubernetes Service (AKS)
+# Exercise 2 - Deploy applications to Azure Kubernetes Service (AKS)
 
 ## Objectives
 
@@ -13,13 +13,13 @@ This guided project consist of the following exercises:
 + Exercise 3: Deploy container images to Azure Kubernetes Service.
 + Exercise 4: Review the deployment and deprovision all resources.
 
-In this lab you build a Linux and Windows container images and store them in Azure Container Registry.
+In this exercise you build a Linux and Windows container images and store them in Azure Container Registry.
 
 ## Exercise 2: Build a Linux and Windows container images and store them in ACR
 In this exercise, you will build a Linux- and Windows-based Docker images and pushed them into the Azure Container registry you created earlier in this lab.
 
 
->**Note**: To complete this lab you will need an [Azure subscription](https://azure.microsoft.com/free/).
+>**Note**: To complete this exercise you will need an [Azure subscription](https://azure.microsoft.com/free/).
 > For any properties that are not specified, use the default value.
 
 
@@ -81,7 +81,7 @@ In this task, you will use a ACR task to build a Linux container image and autom
    ```
 
 1. Save the changes to the file and close it to return to the Bash prompt.
-1. From the Bash session of Azure Cloud Shell, identify the name of your Azure Container registry you created earlier in this lab and store it in a variable named **$ACRNAME** by running the following commands:
+1. From the Bash session of Azure Cloud Shell, identify the name of your Azure Container registry you created earlier in this exercise and store it in a variable named **$ACRNAME** by running the following commands:
 
    ```azurecli
    ACR_RGNAME='acr-01-RG'

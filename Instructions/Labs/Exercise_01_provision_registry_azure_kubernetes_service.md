@@ -3,7 +3,7 @@ lab:
   title: Exercise_01_provision_registry_azure_kubernetes_service
 ---
 
-# Lab - Deploy applications to Azure Kubernetes Service (AKS)
+# Exercise - Deploy applications to Azure Kubernetes Service (AKS)
 
 ## Objectives
 
@@ -14,11 +14,11 @@ This guided project consist of the following exercises:
 + Exercise 3: Deploy container images to Azure Kubernetes Service.
 + Exercise 4: Review the deployment and deprovision all resources.
 
-In this lab you provision Azure Container Registry and Azure Kubernetes Service resources.
+In this exercise you provision Azure Container Registry and Azure Kubernetes Service resources.
 ## Exercise 1: Provision Azure Container Registry (ACR) and Azure Kubernetes Service (AKS)
 In this exercise, you will create an Azure Container registry and an AKS cluster.
 
->**Note**: To complete this lab you will need an [Azure subscription](https://azure.microsoft.com/free/).
+>**Note**: To complete this exercise you will need an [Azure subscription](https://azure.microsoft.com/free/).
 > For any properties that are not specified, use the default value.
 
 ### Task 1: Create an Azure Container registry

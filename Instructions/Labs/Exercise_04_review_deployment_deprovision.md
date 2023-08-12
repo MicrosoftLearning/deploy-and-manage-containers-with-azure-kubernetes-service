@@ -1,8 +1,8 @@
 ---
-lab:
+Exercise:
   title: Exercise_04_review_deployment_deprovision
 ---
-# Lab - Deploy applications to Azure Kubernetes Service (AKS)
+# Exercise 4 - Deploy applications to Azure Kubernetes Service (AKS)
 
 ## Objectives
 
@@ -13,12 +13,12 @@ This guided project consist of the following exercises:
 + Exercise 3: Deploy container images to AKS
 + **Exercise 4: Review the deployment and deprovision all resources**
 
-In this lab you review the deployment of the services in the previous exercises and deprovision all the resources.
+In this exercise you review the deployment of the services in the previous exercises and deprovision all the resources.
 
 # Exercise 4: Review the deployment and deprovision all resources
 In this exercise, you will review the results of the deployments and deprovision all resources.
 
->**Note**: To complete this lab you will need an [Azure subscription](https://azure.microsoft.com/free/).
+>**Note**: To complete this exercise you will need an [Azure subscription](https://azure.microsoft.com/free/).
 > For any properties that are not specified, use the default value.
 
 ### Task 1: Review the AKS deployments and services
@@ -46,7 +46,7 @@ In this task, you will review results of both deployments, including the deploym
 ### Task 2: Delete all resources
 In this task, you will delete all resources provisioned in this lab.
 
-1. From the Bash session of Azure Cloud Shell, display the listing of resources in the two resource groups provisioned in this lab by running the following commands:
+1. From the Bash session of Azure Cloud Shell, display the listing of resources in the two resource groups provisioned in this exercise by running the following commands:
 
    ```azurecli
    az resource list --resource-group 'acr-01-RG' --query "[].name" --output tsv
@@ -55,7 +55,7 @@ In this task, you will delete all resources provisioned in this lab.
 
    > **Note:** Verify that these are the resources you want to delete. If so, proceed to the next step.
 
-1. From the Bash session of Azure Cloud Shell, delete all resources provisioned in this lab by running the following commands:
+1. From the Bash session of Azure Cloud Shell, delete all resources provisioned in this exercise by running the following commands:
 
    ```azurecli
    az group delete --name 'acr-01-RG' --no-wait --yes

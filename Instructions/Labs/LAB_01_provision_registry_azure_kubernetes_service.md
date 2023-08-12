@@ -1,6 +1,6 @@
 ---
 lab:
-  title: LAB_01_provision_registry_azure_kubernetes_service
+  title: Exercise_01_provision_registry_azure_kubernetes_service
 ---
 
 # Lab - Deploy applications to Azure Kubernetes Service (AKS)

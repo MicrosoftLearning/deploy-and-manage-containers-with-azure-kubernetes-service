@@ -1,6 +1,7 @@
 ---
 Exercise:
-  title: Exercise_02_build_linux_windows_container_images
+  title: 'Exercise: Build Linux and Windows container images and store them in Azure Container Registry'
+  module: Guided Project - Deploy applications to Azure Kubernetes Service
 ---
 # Exercise 2 - Deploy applications to Azure Kubernetes Service (AKS)
 

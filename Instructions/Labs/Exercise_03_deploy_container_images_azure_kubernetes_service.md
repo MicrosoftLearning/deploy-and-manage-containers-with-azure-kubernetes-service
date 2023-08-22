@@ -1,6 +1,7 @@
 ---
 Exercise:
-  title: Exercise_03_deploy_container_images_azure_kubernetes_service
+  title: 'Exercise: Deploy container images to Azure Kubernetes Service'
+  module: Guided Project - Deploy applications to Azure Kubernetes Service
 ---
 # Exercise 3 - Deploy applications to Azure Kubernetes Service (AKS)
 

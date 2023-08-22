@@ -1,6 +1,7 @@
 ---
 Exercise:
-  title: Exercise_04_review_deployment_deprovision
+  title: 'Exercise: Review the deployment and deprovision all resources'
+  module: Guided Project - Deploy applications to Azure Kubernetes Service
 ---
 # Exercise 4 - Deploy applications to Azure Kubernetes Service (AKS)
 

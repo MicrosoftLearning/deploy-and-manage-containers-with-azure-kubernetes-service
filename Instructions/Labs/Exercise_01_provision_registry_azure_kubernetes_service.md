@@ -1,6 +1,7 @@
 ---
 Exercise:
-  title: Exercise_01_provision_registry_azure_kubernetes_service
+  title: Exercise: Provision Azure Container Registry (ACR) and Azure Kubernetes Service (AKS)
+  module: Guided Project - Deploy applications to Azure Kubernetes Service
 ---
 
 # Exercise - Deploy applications to Azure Kubernetes Service (AKS)

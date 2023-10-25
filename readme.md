@@ -1,4 +1,4 @@
-# APL-1001: Deploy and manage containers with Azure Kubernetes Service
+# Deploy and manage containers with Azure Kubernetes Service
 
 This repo contains the instructions and assets required to complete the exercises in the  Deploy and manage containers with Azure Kubernetes Service learning path on Microsoft Learn.
 ## Reporting issues

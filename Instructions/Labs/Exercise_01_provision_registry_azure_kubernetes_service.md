@@ -79,6 +79,7 @@ In this task, you will create an Azure virtual network and deploy an AKS cluster
    |AKS pricing tier|**Free**|
    |Kubernetes version|Accept the default value|
    |Automatic upgrade|Disabled|
+   |Node security channel type|**None**|
    |Authentication and Authorization|**Local accounts with Kubernetes RBAC**|
 
 1. On the **Node pools** tab of the **Create Kubernetes cluster** page, perform the following tasks:
@@ -93,27 +94,8 @@ In this task, you will create an Azure virtual network and deploy an AKS cluster
 
    > **Note:** You will add a Windows node pool to the cluster. This required changing the network configuration to **Azure CNI** from the default **Kubenet**. The Kubenet network configuration does not support Windows node pools.
 
-1. Back on the **Node pools** tab of the **Create Kubernetes cluster** page, select **+ Add node pool**.
-1. On the **Add node pool** page, specify the following settings:
-
-   |Setting|Value|
-   |---|---|
-   |Node pool name|**w1pool**|
-   |Mode|**User**|
-   |OS type|**Windows**|
-   |Availability zone|**None**|
-   |Enable Azure spot instances|Disabled|
-   |Node size|**B4ms**|
-   |Scale method|**Manual**|
-   |Node count|**2**|
-   |Max pods per node|**30**|
-   |Enable public IP per node|Disabled|
-
-   > **Note:** Here as well you might need to increase vCPU quotas or change the VM SKU to accommodate the node size and node count values.
-
-1. On the **Add node pool** page, select **Add**.
 1. Back on the **Node pools** tab of the **Create Kubernetes cluster** page, select **Next**.
-1. On the **Networking** tab of the **Create Kubernetes cluster** page, select the **Azure CNI** option,, select the **Bring your own virtual network** checkbox,  in the **Virtual network** dropdown list, select **vnet-01**, and below the **Cluster subnet** textbox, select **Managed subnet configuration**.
+1. On the **Networking** tab of the **Create Kubernetes cluster** page, select the **Azure CNI** option,, select the **Bring your own virtual network** checkbox,  in the **Virtual network** dropdown list, select **vnet-01**, and below the **Cluster subnet** textbox, select **Manage subnet configuration**.
 1. On the **vnet-01 \| Subnets** page, select **+ Subnet**.
 1. On the **Add subnets** page, specify the following settings and select **Save**:
 
@@ -134,8 +116,30 @@ In this task, you will create an Azure virtual network and deploy an AKS cluster
    |DNS name prefix|**aks-01-dns**|
    |Network policy|**None**|
 
+1. On the **Networking** tab of the **Create Kubernetes cluster** page, select **Previous**.
+1. Back on the **Node pools** tab of the **Create Kubernetes cluster** page, select **+ Add node pool**.
+1. On the **Add node pool** page, specify the following settings:
+
+   |Setting|Value|
+   |---|---|
+   |Node pool name|**w1pool**|
+   |Mode|**User**|
+   |OS type|**Windows 2022**|
+   |Availability zone|**None**|
+   |Enable Azure spot instances|Disabled|
+   |Node size|**B4ms**|
+   |Scale method|**Manual**|
+   |Node count|**2**|
+   |Max pods per node|**30**|
+   |Enable public IP per node|Disabled|
+
+   > **Note:** Here as well you might need to increase vCPU quotas or change the VM SKU to accommodate the node size and node count values.
+
+1. On the **Add node pool** page, select **Add**.
+1. Back on the **Node pools** tab of the **Create Kubernetes cluster** page, select **Next**.
 1. On the **Networking** tab of the **Create Kubernetes cluster** page, select **Next**.
-1. On the **Integration** tab of the **Create Kubernetes cluster** page, in the **Container registry** dropdown list, select the entry representing the Azure Container registry you created in the previous exercise, disable the **Enable recommended alert rules** checkbox, ensure that **Azure Policy** option is disabled, and select **Review + create**.
+1. On the **Integration** tab of the **Create Kubernetes cluster** page, in the **Container registry** dropdown list, select the entry representing the Azure Container registry you created in the previous exercise, disable the **Enable recommended alert rules** checkbox, ensure that **Azure Policy** option is disabled, and select **Next**.
+1. On the **Monitoring** tab of the **Create Kubernetes cluster** page, de-select the **Enable Prometheus metrics** checkbox and then select **Review + create**.
 1. On the **Review + create** tab of the **Create Kubernetes cluster** page, select **Create**.
 
    > **Note:** Proceed to the next exercise without waiting for the provisioning of AKS cluster to complete. The provisioning process might take about 5 minutes.

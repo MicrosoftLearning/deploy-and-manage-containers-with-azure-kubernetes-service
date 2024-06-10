@@ -128,4 +128,4 @@ In this task, you will use a ACR task to build a Windows container image and aut
 
 1. Close the Azure Cloud Shell pane.
 1. In the Azure portal, navigate to the **Container registries** page and select the entry representing the Container registry to which you pushed both images.
-1. On the Container registry page, in the vertical hub menu, select **Repositories** and verify that **hellofromnode** and **hellofromdotnet** appear in the list of repositories.
+1. On the Container registry page, in the vertical hub menu, expand **Services** then select **Repositories** and verify that **hellofromnode** and **hellofromdotnet** appear in the list of repositories.

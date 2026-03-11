@@ -1,8 +1,15 @@
 ---
-Exercise:
-  title: 'Exercise: Review the deployment and deprovision all resources'
-  module: Guided Project - Deploy applications to Azure Kubernetes Service
+lab:
+  title: Exercise 4 - Deploy applications to Azure Kubernetes Service (AKS)
+  description: 'This guided project consist of the following exercises:'
+  duration: 30 minutes
+  level: 400
+  islab: true
+  primarytopics:
+  - Azure
+  - Azure Kubernetes Service (AKS)
 ---
+
 # Exercise 4 - Deploy applications to Azure Kubernetes Service (AKS)
 
 ## Objectives

@@ -2,6 +2,14 @@
 Exercise:
   title: 'Exercise: Provision Azure Container Registry (ACR) and Azure Kubernetes Service (AKS)'
   module: Guided Project - Deploy applications to Azure Kubernetes Service
+  description: In this exercise, you will create an Azure Container registry and an AKS cluster.
+  duration: 5 minutes
+  level: 500
+  islab: true
+  primarytopics:
+    - Azure
+    - Azure Container Registry
+    - Azure Kubernetes Service (AKS)
 ---
 
 # Exercise - Deploy applications to Azure Kubernetes Service (AKS)

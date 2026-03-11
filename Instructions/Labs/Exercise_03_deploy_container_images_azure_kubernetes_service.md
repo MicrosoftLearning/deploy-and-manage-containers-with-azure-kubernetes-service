@@ -2,7 +2,14 @@
 Exercise:
   title: 'Exercise: Deploy container images to Azure Kubernetes Service'
   module: Guided Project - Deploy applications to Azure Kubernetes Service
+  description: In this exercise you deploy container images to Azure Kubernetes Service.
+  duration: 64 minutes
+  level: 400
+  islab: true
+  primarytopics:
+    - Azure
 ---
+
 # Exercise 3 - Deploy applications to Azure Kubernetes Service (AKS)
 
 ## Objectives

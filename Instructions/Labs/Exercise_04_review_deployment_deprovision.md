@@ -2,7 +2,12 @@
 Exercise:
   title: 'Exercise: Review the deployment and deprovision all resources'
   module: Guided Project - Deploy applications to Azure Kubernetes Service
+  description: In this exercise, you will review the results of the deployments and deprovision all resources.
+  duration: 30 minutes
+  level: 400
+  islab: true
 ---
+
 # Exercise 4 - Deploy applications to Azure Kubernetes Service (AKS)
 
 ## Objectives

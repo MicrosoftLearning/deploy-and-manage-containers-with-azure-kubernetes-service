@@ -2,7 +2,16 @@
 Exercise:
   title: 'Exercise: Build Linux and Windows container images and store them in Azure Container Registry'
   module: Guided Project - Deploy applications to Azure Kubernetes Service
+  description: In this exercise, you will build a Linux- and Windows-based Docker images and pushed them into the Azure Container registry you created earlier in this lab.
+  duration: 5 minutes
+  level: 400
+  islab: true
+  primarytopics:
+    - Azure
+    - Azure Container Registry
+    - Windows
 ---
+
 # Exercise 2 - Deploy applications to Azure Kubernetes Service (AKS)
 
 ## Objectives

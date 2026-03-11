@@ -1,7 +1,15 @@
 ---
-Guided Exercise:
-  title: Guided Exercise Deploy Applications to AKS
+lab:
+  title: Guided Exercise - Deploy applications to Azure Kubernetes Service (AKS)
+  description: 'This guided exercise consist of the following activities:'
+  duration: 5 minutes
+  level: 500
+  islab: true
+  primarytopics:
+  - Azure
+  - Azure Kubernetes Service (AKS)
 ---
+
 # Guided Exercise - Deploy applications to Azure Kubernetes Service (AKS)
 
 ## Objectives
